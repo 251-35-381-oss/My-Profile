@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasibul Islam | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Hasibul<span>.</span></h2>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="themeBtn" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span>Hasibul Islam</span></h1>
+
+            <h2>I'm a <span id="typing"></span></h2>
+
+            <p>
+                A Software Engineering student passionate about
+                programming, technology and building creative
+                digital solutions.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+
+        <div class="home-image">
+            <div class="image-circle">
+                <img src="profile.jpg.jpg"
+             alt="Hasibul Islam">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <h2 class="section-title">About <span>Me</span></h2>
+
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Software Engineering Student</h3>
+                <p>
+                    Hello! I'm Hasibul Islam, currently studying
+                    Software Engineering at Daffodil International
+                    University.
+
+                    I enjoy learning programming, solving problems
+                    and developing software applications. My goal
+                    is to become a skilled software engineer and
+                    contribute to the technology industry.
+                </p>
+            </div>
+
+            <div class="about-info">
+                <p><strong>Name:</strong> Hasibul Islam</p>
+                <p><strong>University:</strong> Daffodil International University</p>
+                <p><strong>Department:</strong> Software Engineering</p>
+                <p><strong>Interest:</strong> Web Development & AI</p>
+                <p><strong>Location:</strong> Bangladesh</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Web Structure</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Web Design</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Web Interaction</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>C Programming</h3>
+                <p>Problem Solving</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+                <p>Programming</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <h2 class="section-title">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <i class="fas fa-car"></i>
+                <h3>Vehicle Rental System</h3>
+                <p>
+                    A C programming-based system for managing
+                    vehicle rentals, bookings and users.
+                </p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <i class="fas fa-water"></i>
+                <h3>AI Flood Prediction</h3>
+                <p>
+                    An AI-based project designed to predict
+                    floods and provide early warnings.
+                </p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <i class="fas fa-globe"></i>
+                <h3>Personal Portfolio</h3>
+                <p>
+                    A responsive personal website showcasing
+                    my skills, education and projects.
+                </p>
+                <a href="#home" class="project-link">View Project</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Your Message" rows="6" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; 2026 Hasibul Islam | All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
